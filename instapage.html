@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    .body {
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .parent {
+        display: flex;
+        justify-content:center;
+        margin-top:5%;
+    }
+
+    .image {
+        width: 25%;
+        height: 8%;
+        padding:2%;
+        
+    }
+
+    .login-form,
+    .signup {
+        border: 1px solid rgba(0,0,0,0.3);
+        text-align: center;
+        width: 25vw;
+        margin-bottom: 5%;
+        padding: 2%;
+        margin: 3% 0%;
+    }
+
+    .title {
+        font-size: 2rem;
+        font-weight: bold;
+
+        .lobster-two-regular {
+            font-family: "Lobster Two", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .lobster-two-regular-italic {
+            font-family: "Lobster Two", sans-serif;
+            font-weight: 400;
+            font-style: italic;
+        }
+
+        .lobster-two-bold {
+            font-family: "Lobster Two", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        .lobster-two-bold-italic {
+            font-family: "Lobster Two", sans-serif;
+            font-weight: 700;
+            font-style: italic;
+        }
+
+    }
+
+    .login-user-info {
+        padding: 1.8%;
+        border-radius: 5px;
+        width: 78%;
+        background-color: rgb(250, 250, 250);
+        border: 1px solid black;
+
+
+    }
+
+    .log {
+        width: 83%;
+        background-color: rgb(76, 181, 249);
+        border: 1px solid black;
+        padding: 1.8%;
+        border-radius: 5px;
+        color: white;
+    }
+
+    .fb a,
+    .forgot-pass a {
+        text-decoration: none;
+        color: rgb(56, 81, 133);
+    }
+
+    .forgot-pass {
+        color: rgb(0, 147, 207);
+    }
+
+    .sign {
+        color: rgb(76, 181, 249);
+    }
+
+    .playstore {
+        text-align: center;
+        width: 20vw;
+    }
+    .links a{
+        justify-content:center;
+        text-decoration: none;
+        padding:0.8%;
+    }
+    .dropdown{
+        text-align:center;
+        border:none;
+    }
+
+</style>
+
+<body>
+    <div class="parent">
+        <img src="C:\Users\nekka\OneDrive\Desktop/image.png" alt="image" class="image">
+
+        <div class="login">
+            <div class="login-form">
+                <p class="title">Instagram</p>
+                <p><input class="login-user-info" type="text" placeholder="Phone number, Username or email"></p>
+                <p><input type="password" placeholder="Password" class="login-user-info"></p>
+                <p>
+                    <button class="log">Log in</button>
+                </p>
+                <div class="or">
+                    <hr style="display: inline-block; width:40%;">
+                    <p style="display: inline-block;">OR</p>
+                    <hr style="display: inline-block; width:40%">
+                </div>
+                <p class="fb">
+                    <a href="fb">
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <span>Log in with Facebook</span>
+                    </a>
+                </p>
+                <p class="forgot-pass">
+                    <a href=""> Forgot Password?</a>
+                </p>
+            </div>
+
+            <div class="signup">
+                Don't have an account?
+                <span class="sign">Sign up</span>
+            </div>
+            <div class="playstore">
+                <p>
+                    Get the app.
+                </p>
+                <img src="C:\Users\nekka\OneDrive\Desktop/app.png" alt="playstore" width="70%">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="links">
+            <a href="">Meta</a>
+            <a href="">About</a>
+            <a href="">Blog</a>
+            <a href="">Jobs</a>
+            <a href="">Help</a>
+            <a href="">API</a>
+            <a href="">Privacy</a>
+            <a href="">Cookie Setting</a>
+            <a href="">Terms</a>
+            <a href="">Locations</a>
+            <a href="">Instagram lite</a>
+            <a href="">Threads</a>
+            <a href="">Contact Updating & Non Users</a>
+            <a href="">Meta Verified</a>
+
+        </div>
+        <div class="dropdown">
+            <select name="" id="">
+                <option value="">English</option>
+                <option value="">English(US)</option>
+                <option value="">English(UK)</option>
+                <option value="">French</option>
+                <option value="">Danish</option>
+            </select>
+            instagram from meta
+        </div>
+
+    </footer>
+</body>
+
+</html>
